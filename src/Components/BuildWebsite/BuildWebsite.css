@@ -1,0 +1,87 @@
+
+*{
+    margin:0;
+    padding: 0;
+}
+.logo{
+    display: flex;   
+    align-items: center;
+}
+.logo div{
+    padding-right: 10px;
+}
+.logo div img{
+    border-radius: 50px;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.naav{
+display: flex;
+/* margin-left: 30px; */
+background-color:rgb(172, 121, 121) ;
+}
+.naav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:20px ;
+}
+.naav ul li{
+display: inline-block;  
+padding-left: 40px;
+margin-top: 5vh;
+
+}
+.social-media{
+    margin: 15px;
+    padding-left: 100px;
+}
+.social-media a{
+    padding-left: 20px;
+}
+.social-media a img{
+    border-radius: 50px;
+    
+}
+.container{
+width: 50%;
+height: 50vh;
+/* background-color: bisque; */
+/* margin: 100px; */
+position: absolute;
+} 
+.container img{
+    /* object-fit: fill; */
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.main{
+    height: 90vh;
+    overflow: hidden;
+    background-color: azure;
+} 
+.main img {
+   position: absolute; 
+   /* object-fit: cover; */
+  /* margin-top: 20px; */
+  margin-left: 10vw;  
+}
+.main h1{
+    position: relative;
+    text-align: center;
+    /* margin-top: 30px; */
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(172, 121, 121);
+}
+.footer{
+    height: 6vh;
+   background-color: rgb(138, 136, 136);
+    
+}
+.footer p{
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
